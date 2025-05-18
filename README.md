@@ -1,6 +1,5 @@
 <p align="center">
-    <h3 align="center">Beby Leaps AI</h3>
-  </a>
+    <h1 align="center">Beby Leaps AI</h3>
 </p>
 
 <p align="center">
@@ -12,22 +11,6 @@
     <img alt="tests" title="Acessar site" src="https://github.com/vitorroliveiraa/baby-leaps-ai/blob/main/baby-leaps.png" style="width: 100%">
   </a>
 </p>
-
-## ✨ Tecnologias
-
-**Frontend**  
-[![Vite](https://img.shields.io/badge/Vite-5.4-646CFF.svg?logo=vite)](https://vitejs.dev/)
-[![React](https://img.shields.io/badge/React-18-61DAFB.svg?logo=react)](https://reactjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6.svg?logo=typescript)](https://www.typescriptlang.org/)
-
-**Backend**  
-[![Python](https://img.shields.io/badge/Python-3.10+-3776AB.svg?logo=python)](https://www.python.org/)
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.115-009688.svg?logo=fastapi)](https://fastapi.tiangolo.com/)
-[![Gemini API](https://img.shields.io/badge/Gemini_API-1.15-4285F4.svg?logo=google)](https://ai.google.dev/)
-
-## Contexto do Projeto
-O projeto foi criado como entrega de um desafio da Imersão de IA com o Google Gemini promovida pela Alura e Google.
-<img src="https://www.alura.com.br/assets/img/imersoes/imersao-ia-google-gemini/logo.1715192575.png" width="200px"><figcaption></figcaption>
 
 ## 💡 Motivação
 
@@ -44,6 +27,45 @@ Muitos pais não conhecem a importância dos saltos de desenvolvimento. Ao enten
 ✔ Oferecer o apoio adequado para cada fase  
 ✔ Criar um ambiente que estimule o aprendizado  
 ✔ Reduzir a ansiedade sobre o desenvolvimento infantil  
+
+## 📝 Guia Rápido de Uso
+### Cadastro Inicial
+- Preencha os dados do bebê:
+  - 📅 Data prevista de nascimento
+  - 🎂 Data real de nascimento
+  - 👶 Nome e sexo
+
+### Cálculos Automáticos
+O sistema irá:
+- Calcular idade cronológica e corrigida
+- Ajustar para bebês prematuros e não prematuros
+- Identificar o salto de desenvolvimento atual
+
+### Interação com a AI
+Pergunte sobre:
+- 📊 Marcos do desenvolvimento atual
+- 😴 Padrões de sono e alimentação
+- 🧸 Atividades de estimulação
+
+
+## Contexto do Projeto
+O projeto foi criado como entrega de um desafio da Imersão de IA com o Google Gemini promovida pela Alura e Google.
+<img src="https://www.alura.com.br/assets/img/imersoes/imersao-ia-google-gemini/logo.1715192575.png" width="200px"><figcaption></figcaption>
+
+
+## ✨ Tecnologias
+
+**Frontend**  
+[![Vite](https://img.shields.io/badge/Vite-5.4-646CFF.svg?logo=vite)](https://vitejs.dev/)
+[![React](https://img.shields.io/badge/React-18-61DAFB.svg?logo=react)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6.svg?logo=typescript)](https://www.typescriptlang.org/)
+
+**Backend**  
+[![Python](https://img.shields.io/badge/Python-3.10+-3776AB.svg?logo=python)](https://www.python.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.115-009688.svg?logo=fastapi)](https://fastapi.tiangolo.com/)
+[![Gemini API](https://img.shields.io/badge/Gemini_API-1.15-4285F4.svg?logo=google)](https://ai.google.dev/)
+
+
 
 ## 🚀 Como Executar o Projeto
 
@@ -104,24 +126,9 @@ Muitos pais não conhecem a importância dos saltos de desenvolvimento. Ao enten
    npm run dev
    ```
 
-## 📝 Guia Rápido de Uso
-### Cadastro Inicial
-- Preencha os dados do bebê:
-  - 📅 Data prevista de nascimento
-  - 🎂 Data real de nascimento
-  - 👶 Nome e sexo
 
-### Cálculos Automáticos
-O sistema irá:
-- Calcular idade cronológica e corrigida
-- Ajustar para bebês prematuros e não prematuros
-- Identificar o salto de desenvolvimento atual
 
-### Interação com a AI
-Pergunte sobre:
-- 📊 Marcos do desenvolvimento atual
-- 😴 Padrões de sono e alimentação
-- 🧸 Atividades de estimulação
 
-### ✉️ Contato
-Desenvolvido por Vitor Oliveira.
+<p align="center">
+    <h1 align="center">Desenvolvido por Vitor Oliveira.</h3>
+</p>
