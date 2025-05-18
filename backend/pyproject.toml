@@ -16,7 +16,7 @@ dependencies = [
 ]
 
 [tool.poetry]
-packages = [{ include = "services", from = "src" }]
+packages = [{ include = "servicess", from = "src" }]
 
 
 [build-system]
