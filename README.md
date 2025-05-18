@@ -1,9 +1,3 @@
-# 👶 Baby Leaps AI
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-![Python3](https://img.shields.io/badge/Python-3.10+-blue.svg)
-![React](https://img.shields.io/badge/React-18+-61DAFB.svg?logo=react)
-
 Uma aplicação inteligente que ajuda pais a entenderem os saltos de desenvolvimento de seus bebês, utilizando a Gemini API para fornecer orientações personalizadas.
 
 <p align="center">
@@ -26,7 +20,7 @@ Uma aplicação inteligente que ajuda pais a entenderem os saltos de desenvolvim
 
 ## 💡 Motivação
 
-Este projeto nasceu da minha experiência pessoal como pai. Quando minha filha era bebê, eu desejava profundamente ter uma ferramenta que me ajudasse a:
+Este projeto nasceu da minha experiência pessoal como pai. Quando minha filha era bebê, seria bacana ter algo bem prático que me ajudasse a:
 
 - Compreender os períodos de desenvolvimento intenso (saltos)
 - Antecipar mudanças no comportamento
@@ -44,8 +38,8 @@ Muitos pais não conhecem a importância dos saltos de desenvolvimento. Ao enten
 
 ### Pré-requisitos
 
-- Node.js 18+ (para o frontend)
-- Python3 3.10+ (para o backend)
+- Node.js - 18+ (para o frontend)
+- Python3 - 3.10+ (para o backend)
 - Conta no Google AI Studio (para a Gemini API)
 - Poetry (gerenciador de dependências Python)
 
@@ -55,7 +49,7 @@ Muitos pais não conhecem a importância dos saltos de desenvolvimento. Ao enten
    git clone https://github.com/vitorroliveiraa/baby-leaps-ai.git
 
 ### 🔧 Configuração do Backend
-1. Acessar a pasta:
+1. **Acessar a pasta:**
     ```bash
     cd baby-leaps-ai/backend
     ```
@@ -70,22 +64,32 @@ Muitos pais não conhecem a importância dos saltos de desenvolvimento. Ao enten
    poetry shell
    ```
 
-3. Configure a Gemini API
+3. **Configure a Gemini API**
    Crie um arquivo .env na pasta backend com:
    ```
     GEMINI_API_KEY=sua_chave_aqui
     USE_MOCK=False  # Defina como True para usar dados simulados
     ```
 
-5. Inicie o servidor
-Entrar na pasta do projeto Python:
-```bash
-poetry run uvicorn main:app --reload
+5. **Inicie o servidor**
+   Entrar na pasta do projeto Python:
+   ```bash
+   poetry run uvicorn src.main:app --reload
+   ```
 
-### Frontend (React)
-Frontend (React)
-Instale as dependências:
-```bash
-cd frontend
-npm install
+### 💅 Configuração do Frontend (React)
+1. **Acessar a pasta:**
+   ```bash
+   cd baby-leaps-ai/frontend
+   ```
 
+2. **Configure o ambiente Reactjs**
+   ```bash
+   # Instale as dependências
+   npm i
+   ```
+
+3. **Rodar o projeto**
+   ```bash
+   npm run dev
+   ```
