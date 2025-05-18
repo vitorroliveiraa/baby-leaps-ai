@@ -45,36 +45,39 @@ Muitos pais não conhecem a importância dos saltos de desenvolvimento. Ao enten
 ### Pré-requisitos
 
 - Node.js 18+ (para o frontend)
-- Python 3.9+ (para o backend)
+- Python3 3.10+ (para o backend)
 - Conta no Google AI Studio (para a Gemini API)
 - Poetry (gerenciador de dependências Python)
 
-### 🔧 Configuração do Backend
 
 1. **Clone o repositório**
    ```bash
-   git clone https://github.com/seu-usuario/baby-leaps-ai.git
-   cd baby-leaps-ai/backend
+   git clone https://github.com/vitorroliveiraa/baby-leaps-ai.git
 
-   ## 🚀 Configuração Completa
+### 🔧 Configuração do Backend
+1. Acessar a pasta:
+    ```bash
+    cd baby-leaps-ai/backend
+    ```
 
-### 🔧 Backend (Python)
-
-1. **Configure o ambiente Python**
+2. **Configure o ambiente Python**
    ```bash
    # Instale as dependências
    poetry install
+   
 
    # Ative o ambiente virtual
    poetry shell
+   ```
 
-2. Configure a Gemini API
-Crie um arquivo .env na pasta backend com:
-```
-GEMINI_API_KEY=sua_chave_aqui  # Obtenha em: https://ai.google.dev/
-USE_MOCK=False  # Defina como True para usar dados simulados
+3. Configure a Gemini API
+   Crie um arquivo .env na pasta backend com:
+   ```
+    GEMINI_API_KEY=sua_chave_aqui
+    USE_MOCK=False  # Defina como True para usar dados simulados
+    ```
 
-4. Inicie o servidor
+5. Inicie o servidor
 Entrar na pasta do projeto Python:
 ```bash
 poetry run uvicorn main:app --reload
