@@ -6,6 +6,12 @@
 
 Uma aplicação inteligente que ajuda pais a entenderem os saltos de desenvolvimento de seus bebês, utilizando a Gemini API para fornecer orientações personalizadas.
 
+<p align="center">
+  <a href="https://javascript.tv.br/">
+    <img alt="tests" title="Acessar site" src="https://github.com/vitorroliveiraa/baby-leaps-ai/blob/main/baby-leaps.png" style="width: 100%">
+  </a>
+</p>
+
 ## ✨ Tecnologias
 
 **Frontend**  
