@@ -16,7 +16,7 @@ dependencies = [
 ]
 
 [tool.poetry]
-packages = [{ include = "baby_leaps_ai", from = "src" }]
+packages = [{ include = "services", from = "src" }]
 
 
 [build-system]
