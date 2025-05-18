@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  Uma aplicação inteligente que ajuda pais a entenderem os saltos de desenvolvimento de seus bebês, utilizando a Gemini API para fornecer orientações personalizadas.
+  Uma aplicação inteligente que ajuda pais a desvendarem os mistérios do crescimento do seu bebê! Os saltos de desenvolvimento são janelas mágicas onde seu pequeno conquista novas habilidades mentais e físicas. Embora venham com choro e irritabilidade, compreender e apoiar esses momentos é essencial para fortalecer o vínculo entre vocês e impulsionar o desenvolvimento saudável do seu filho. Prepare-se para celebrar cada 'leap' como um passo gigante na jornada do seu bebê!
 </p>
 
 <p align="center">
