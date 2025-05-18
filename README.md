@@ -1,4 +1,11 @@
-Uma aplicação inteligente que ajuda pais a entenderem os saltos de desenvolvimento de seus bebês, utilizando a Gemini API para fornecer orientações personalizadas.
+<p align="center">
+    <h3 align="center">Beby Leaps AI</h3>
+  </a>
+</p>
+
+<p align="center">
+  Uma aplicação inteligente que ajuda pais a entenderem os saltos de desenvolvimento de seus bebês, utilizando a Gemini API para fornecer orientações personalizadas.
+</p>
 
 <p align="center">
   <a href="https://javascript.tv.br/">
@@ -9,14 +16,18 @@ Uma aplicação inteligente que ajuda pais a entenderem os saltos de desenvolvim
 ## ✨ Tecnologias
 
 **Frontend**  
-[![Vite](https://img.shields.io/badge/Vite-4.4-646CFF.svg?logo=vite)](https://vitejs.dev/)
+[![Vite](https://img.shields.io/badge/Vite-5.4-646CFF.svg?logo=vite)](https://vitejs.dev/)
 [![React](https://img.shields.io/badge/React-18-61DAFB.svg?logo=react)](https://reactjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6.svg?logo=typescript)](https://www.typescriptlang.org/)
 
 **Backend**  
-[![Python](https://img.shields.io/badge/Python-3.9+-3776AB.svg?logo=python)](https://www.python.org/)
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.95-009688.svg?logo=fastapi)](https://fastapi.tiangolo.com/)
-[![Gemini API](https://img.shields.io/badge/Gemini_API-1.0-4285F4.svg?logo=google)](https://ai.google.dev/)
+[![Python](https://img.shields.io/badge/Python-3.10+-3776AB.svg?logo=python)](https://www.python.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.115-009688.svg?logo=fastapi)](https://fastapi.tiangolo.com/)
+[![Gemini API](https://img.shields.io/badge/Gemini_API-1.15-4285F4.svg?logo=google)](https://ai.google.dev/)
+
+## Contexto do Projeto
+O projeto foi criado como entrega de um desafio da Imersão de IA com o Google Gemini promovida pela Alura e Google.
+<img src="https://www.alura.com.br/assets/img/imersoes/imersao-ia-google-gemini/logo.1715192575.png" width="200px"><figcaption></figcaption>
 
 ## 💡 Motivação
 
@@ -42,12 +53,11 @@ Muitos pais não conhecem a importância dos saltos de desenvolvimento. Ao enten
 - Python3 - 3.10+ (para o backend)
 - Conta no Google AI Studio (para a Gemini API)
 - Poetry (gerenciador de dependências Python)
-
-
-1. **Clone o repositório**
-   ```bash
-   git clone https://github.com/vitorroliveiraa/baby-leaps-ai.git
-
+- Clonar o repositório
+  ```bash
+  git clone https://github.com/vitorroliveiraa/baby-leaps-ai.git
+  ```
+  
 ### 🔧 Configuração do Backend
 1. **Acessar a pasta:**
     ```bash
@@ -68,7 +78,7 @@ Muitos pais não conhecem a importância dos saltos de desenvolvimento. Ao enten
    Crie um arquivo .env na pasta backend com:
    ```
     GEMINI_API_KEY=sua_chave_aqui
-    USE_MOCK=False  # Defina como True para usar dados simulados
+    USE_MOCK=False  # Defina como True para usar dados simulados e não gastar seus créditos 😅 (Apenas testes)
     ```
 
 5. **Inicie o servidor**
@@ -93,3 +103,25 @@ Muitos pais não conhecem a importância dos saltos de desenvolvimento. Ao enten
    ```bash
    npm run dev
    ```
+
+## 📝 Guia Rápido de Uso
+### Cadastro Inicial
+- Preencha os dados do bebê:
+  - 📅 Data prevista de nascimento
+  - 🎂 Data real de nascimento
+  - 👶 Nome e sexo
+
+### Cálculos Automáticos
+O sistema irá:
+- Calcular idade cronológica e corrigida
+- Ajustar para bebês prematuros e não prematuros
+- Identificar o salto de desenvolvimento atual
+
+### Interação com a AI
+Pergunte sobre:
+- 📊 Marcos do desenvolvimento atual
+- 😴 Padrões de sono e alimentação
+- 🧸 Atividades de estimulação
+
+### ✉️ Contato
+Desenvolvido por Vitor Oliveira.
