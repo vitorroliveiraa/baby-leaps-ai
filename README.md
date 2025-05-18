@@ -126,9 +126,9 @@ O projeto foi criado como entrega de um desafio da Imersão de IA com o Google G
    npm run dev
    ```
 
-
+----
 
 
 <p align="center">
-    <h1 align="center">Desenvolvido por Vitor Oliveira.</h3>
+    <h3 align="center">Desenvolvido por Vitor Oliveira.</h3>
 </p>
