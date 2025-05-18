@@ -55,3 +55,34 @@ Muitos pais não conhecem a importância dos saltos de desenvolvimento. Ao enten
    ```bash
    git clone https://github.com/seu-usuario/baby-leaps-ai.git
    cd baby-leaps-ai/backend
+
+   ## 🚀 Configuração Completa
+
+### 🔧 Backend (Python)
+
+1. **Configure o ambiente Python**
+   ```bash
+   # Instale as dependências
+   poetry install
+
+   # Ative o ambiente virtual
+   poetry shell
+
+2. Configure a Gemini API
+Crie um arquivo .env na pasta backend com:
+```
+GEMINI_API_KEY=sua_chave_aqui  # Obtenha em: https://ai.google.dev/
+USE_MOCK=False  # Defina como True para usar dados simulados
+
+4. Inicie o servidor
+Entrar na pasta do projeto Python:
+```bash
+poetry run uvicorn main:app --reload
+
+### Frontend (React)
+Frontend (React)
+Instale as dependências:
+```bash
+cd frontend
+npm install
+
